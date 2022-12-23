@@ -1,0 +1,55 @@
+p.iv{
+font-size: 12pt;
+    color: gray;
+    font-weight: bold;
+    float: right;
+    font-family: sans-serif;
+}
+
+p.tf{
+font-size: 12pt;
+    float: left;
+    font-family: sans-serif;
+
+}
+
+p.quote{
+float:left;
+    padding:50px;
+    font-size: 15pt;
+     font-family: sans-serif;
+    font-style: italic;
+}
+
+p.note{
+
+}
+
+.topnav{
+    overflow:hidden;
+    background-color: lightgray;
+    position:fixed;
+    top:10px;
+    left:10px;
+    padding:10px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    
+    
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
