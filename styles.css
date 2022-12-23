@@ -33,7 +33,7 @@ p.note{
     background-color: lightgray;
     position:fixed;
     top:10px;
-    left:10px;
+    right:10px;
     padding:10px;
     border-radius: 8px;
     font-family: sans-serif;
@@ -55,4 +55,14 @@ p.note{
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
+}
+.topnav1{
+  overflow:hidden;
+    background-color: lightgray;
+    position:fixed;
+    top:10px;
+    left:10px;
+    padding:10px;
+    border-radius: 8px;
+    font-family: sans-serif;
 }
